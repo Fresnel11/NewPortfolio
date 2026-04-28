@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "work": "Travail",
+    "services": "Services",
+    "about": "À propos",
+    "faqs": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Fresnel Jean Claude",
+    "subtitle": "Développeur Fullstack"
+  }
+}
