@@ -1,32 +1,24 @@
 import { Code2, Smartphone, Palette } from "lucide-react";
-
-const services = [
-  {
-    icon: Code2,
-    title: "Web Development",
-    desc: "High-performance web applications built with React, Next.js, and modern tooling — designed to scale.",
-  },
-  {
-    icon: Smartphone,
-    title: "Cross-Platform Development",
-    desc: "Native-quality mobile experiences for iOS and Android using React Native and Flutter.",
-  },
-  {
-    icon: Palette,
-    title: "UI / UX Design",
-    desc: "Human-centered interfaces, design systems, and prototypes that turn complexity into clarity.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const Services = () => {
+  const { t } = useTranslation();
+
+  const icons = [Code2, Smartphone, Palette];
+  
+  const services = (t("services.items", { returnObjects: true }) as any[]).map((s, i) => ({
+    ...s,
+    icon: icons[i]
+  }));
+
   return (
     <section id="services" className="py-32 relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/10 blur-[120px]" />
       <div className="container relative z-10">
         <div className="text-center mb-16 max-w-2xl mx-auto">
-          <p className="text-sm uppercase tracking-[0.3em] text-primary-glow mb-4">What I Do</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-primary-glow mb-4">{t("services.label")}</p>
           <h2 className="font-display text-4xl md:text-6xl font-bold">
-            Services built for <span className="gradient-text">scale</span>
+            {t("services.title")} <span className="gradient-text">{t("services.titleHighlight")}</span>
           </h2>
         </div>
 

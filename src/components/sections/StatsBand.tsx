@@ -1,11 +1,15 @@
-const stats = [
-  { value: "10+", label: "Years" },
-  { value: "140+", label: "Projects" },
-  { value: "500+", label: "Clients" },
-  { value: "1M+", label: "Coding Hours" },
-];
+import { useTranslation } from "react-i18next";
 
 export const StatsBand = () => {
+  const { t } = useTranslation();
+
+  const stats = [
+    { value: "10+", label: t("hero.stats.years") },
+    { value: "140+", label: t("hero.stats.projects") },
+    { value: "500+", label: t("hero.stats.clients") },
+    { value: "1M+", label: t("hero.stats.codingHours") },
+  ];
+
   return (
     <section className="py-24 relative">
       <div className="container">

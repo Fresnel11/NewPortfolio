@@ -29,11 +29,14 @@ export const Navbar = () => {
                 {l.label}
               </a>
             ))}
-            <LanguageSwitcher />
           </nav>
-          <a href="#contact" className="hidden md:inline-flex text-sm rounded-full px-4 py-2 bg-gradient-to-r from-primary-deep to-primary text-primary-foreground hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-all">
-            {t("nav.contact")}
-          </a>
+          
+          <div className="hidden md:flex items-center gap-3">
+            <LanguageSwitcher />
+            <a href="#contact" className="inline-flex text-sm rounded-full px-5 py-2.5 bg-gradient-to-r from-primary-deep to-primary text-primary-foreground hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-all font-medium">
+              {t("nav.contact")}
+            </a>
+          </div>
           <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">
             {open ? <X /> : <Menu />}
           </button>

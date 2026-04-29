@@ -1,16 +1,25 @@
 import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
-
-const links = ["Home", "About", "Work", "FAQs", "Contact"];
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+  
+  const links = [
+    { label: t("footer.links.home"), href: "#home" },
+    { label: t("footer.links.about"), href: "#about" },
+    { label: t("footer.links.work"), href: "#work" },
+    { label: t("footer.links.faqs"), href: "#faqs" },
+    { label: t("footer.links.contact"), href: "#contact" },
+  ];
+
   return (
     <footer className="pt-20 pb-10 border-t border-white/5 relative">
       <div className="container">
         <div className="grid md:grid-cols-[1fr_auto] gap-10 items-end mb-16">
           <nav className="flex flex-wrap gap-x-8 gap-y-3">
             {links.map((l) => (
-              <a key={l} href={`#${l.toLowerCase()}`} className="text-muted-foreground hover:text-foreground transition-colors">
-                {l}
+              <a key={l.label} href={l.href} className="text-muted-foreground hover:text-foreground transition-colors">
+                {l.label}
               </a>
             ))}
           </nav>
@@ -23,13 +32,13 @@ export const Footer = () => {
           </div>
         </div>
 
-        <h2 className="font-display font-black text-[20vw] md:text-[16vw] leading-[0.85] tracking-tighter gradient-text text-glow text-center select-none">
-          LEO CARTER
+        <h2 className="font-display font-black text-[20vw] md:text-[16vw] leading-[0.85] tracking-tighter gradient-text text-glow text-center select-none uppercase">
+          FRESNEL
         </h2>
 
         <div className="mt-10 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <div>© 2026 Leo Carter. All rights reserved.</div>
-          <div>Crafted with precision in San Francisco.</div>
+          <div>{t("footer.rights")}</div>
+          <div>{t("footer.crafted")}</div>
         </div>
       </div>
     </footer>
