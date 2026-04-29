@@ -1,17 +1,20 @@
-const steps = [
-  { num: "01", title: "Define & Architect", desc: "We align on goals, audience, and technical foundations. Wireframes, system design, and a clear roadmap." },
-  { num: "02", title: "Build & Develop", desc: "Pixel-perfect interfaces meet robust engineering. Iterative sprints with continuous feedback." },
-  { num: "03", title: "Deploy & Support", desc: "Launch with confidence. Performance monitoring, refinement, and long-term partnership." },
-];
+import { useTranslation } from "react-i18next";
 
 export const Process = () => {
+  const { t } = useTranslation();
+
+  const steps = (t("process.steps", { returnObjects: true }) as any[]).map((s, i) => ({
+    ...s,
+    num: `0${i + 1}`
+  }));
+
   return (
     <section className="py-32 relative">
       <div className="container">
         <div className="text-center mb-20 max-w-2xl mx-auto">
-          <p className="text-sm uppercase tracking-[0.3em] text-primary-glow mb-4">My Process</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-primary-glow mb-4">{t("process.label")}</p>
           <h2 className="font-display text-4xl md:text-6xl font-bold">
-            From idea to <span className="gradient-text">impact</span>
+            {t("process.title")} <span className="gradient-text">{t("process.titleHighlight")}</span>
           </h2>
         </div>
 

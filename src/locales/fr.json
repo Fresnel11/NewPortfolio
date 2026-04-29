@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Fresnel — Créateur de Solutions Digitales",
+    "description": "Fresnel — expert en création de solutions web sur mesure pour entrepreneurs et PME. Design et stratégie au service de votre croissance."
+  },
+  "nav": {
+    "home": "Accueil",
+    "work": "Projets",
+    "services": "Services",
+    "about": "À propos",
+    "faqs": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "available": "Disponible pour de nouveaux projets",
+    "title": "Je suis Fresnel,",
+    "titleHighlight": "Solutions d'Impact.",
+    "titleBuilding": "je bâtis vos",
+    "subtitle": "J'accompagne les entrepreneurs et les PME dans la création de solutions web sur mesure. Mon approche : un design d'exception allié à une stratégie technique rigoureuse pour propulser vos idées.",
+    "learnMore": "En savoir plus",
+    "viewWork": "Voir mes projets",
+    "portraitAlt": "Portrait de Fresnel",
+    "stats": {
+      "codingHours": "Heures de code",
+      "clients": "Clients satisfaits",
+      "projects": "Projets réalisés",
+      "years": "Ans d'expérience"
+    }
+  },
+  "trustedBy": {
+    "label": "Approuvé par les leaders de l'industrie"
+  },
+  "about": {
+    "label": "À propos de moi",
+    "title": "Une décennie à construire des",
+    "titleHighlight": "produits que les gens adorent",
+    "bio1": "Je suis ingénieur logiciel et designer produit passionné par l'intersection entre l'artisanat et l'ingénierie. Au cours des 10 dernières années, j'ai aidé des startups et des entreprises du Fortune 500 à lancer des produits numériques utilisés par des millions de personnes.",
+    "bio2": "Mon approche est opiniâtre mais collaborative : profondément technique, axée sur le design et ancrée dans des résultats commerciaux mesurables.",
+    "stack": "Stack technique",
+    "experience": "Expérience",
+    "contact": "Me contacter",
+    "role": "Ingénieur logiciel & Designer",
+    "timeline": [
+      { "year": "2023", "role": "Ingénieur Principal", "company": "Postel Company" },
+      { "year": "2021", "role": "Développeur Senior", "company": "Digital Core" },
+      { "year": "2019", "role": "Ingénieur Full-Stack", "company": "Smart Solutions" },
+      { "year": "2017", "role": "Développeur Junior", "company": "Visionary Labs" }
+    ]
+  },
+  "services": {
+    "label": "Ce que je fais",
+    "title": "Services conçus pour",
+    "titleHighlight": "scaler",
+    "items": [
+      {
+        "title": "Développement Web",
+        "desc": "Applications web haute performance construites avec React, Next.js et des outils modernes — conçues pour évoluer."
+      },
+      {
+        "title": "Développement Cross-Platform",
+        "desc": "Expériences mobiles de qualité native pour iOS et Android avec React Native et Flutter."
+      },
+      {
+        "title": "Design UI / UX",
+        "desc": "Interfaces centrées sur l'humain, systèmes de design et prototypes qui transforment la complexité en clarté."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Travaux récents",
+    "title": "Projets qui",
+    "titleHighlight": "repoussent les limites",
+    "subtitle": "Une sélection de travaux couvrant des plateformes SaaS, l'e-commerce et des expériences de marque immersives.",
+    "items": [
+      { "title": "Boostez votre activité avec CloudPeak", "category": "Développement Web" },
+      { "title": "Suite Analytics pour équipes modernes", "category": "SaaS" },
+      { "title": "Luxe — Expérience e-commerce premium", "category": "E-commerce" },
+      { "title": "Nimbus Mobile Banking", "category": "Application Mobile" },
+      { "title": "Aurora Creative Studio", "category": "Branding" },
+      { "title": "CryptaX Trading Dashboard", "category": "Fintech" }
+    ]
+  },
+  "process": {
+    "label": "Mon processus",
+    "title": "De l'idée à",
+    "titleHighlight": "l'impact",
+    "steps": [
+      {
+        "title": "Définir & Architecturer",
+        "desc": "Nous alignons les objectifs, l'audience et les fondations techniques. Wireframes, conception système et feuille de route claire."
+      },
+      {
+        "title": "Construire & Développer",
+        "desc": "Des interfaces pixel-perfect rencontrent une ingénierie robuste. Sprints itératifs avec retours continus."
+      },
+      {
+        "title": "Déployer & Accompagner",
+        "desc": "Lancement en confiance. Monitoring des performances, améliorations et partenariat à long terme."
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "title": "Ce que disent les",
+    "titleHighlight": "clients",
+    "items": [
+      { "name": "Sarah Mitchell", "role": "Responsable Produit, Google", "text": "Leo a dépassé toutes nos attentes. La plateforme qu'il a construite a entraîné une augmentation de 40 % des conversions au cours du seul premier trimestre." },
+      { "name": "Marcus Reed", "role": "CTO, Stripe", "text": "Il est rare de trouver quelqu'un d'aussi à l'aise en design qu'en ingénierie. Leo est cette personne — et son travail le prouve." },
+      { "name": "Aiko Tanaka", "role": "Fondatrice, Nimbus", "text": "Travailler avec Leo, c'était comme avoir un co-fondateur. Réfléchi, rapide et véritablement investi dans le résultat." },
+      { "name": "James Whitfield", "role": "VP Ingénierie, Uber", "text": "Exécution précise, instincts affûtés. Notre tableau de bord SaaS n'a jamais été aussi beau ni aussi performant." },
+      { "name": "Elena Castro", "role": "Directrice Design, Airbnb", "text": "Un véritable artisan. Chaque interaction, chaque micro-détail a été pris en compte. Je recommande vivement." },
+      { "name": "Priya Shah", "role": "PM, Mashable", "text": "Leo a pris une idée vague et a livré un produit que nos utilisateurs adorent vraiment. C'est un don rare." }
+    ]
+  },
+  "faqs": {
+    "label": "FAQ",
+    "title": "Questions",
+    "titleHighlight": "fréquentes",
+    "items": [
+      {
+        "q": "Quel est votre délai de projet typique ?",
+        "a": "La plupart des projets durent 6 à 12 semaines du lancement à la mise en ligne. Les petits projets peuvent être livrés en 2 à 4 semaines ; les grandes plateformes peuvent prendre 3 à 6 mois. Je vous donnerai une estimation précise après notre appel de découverte."
+      },
+      {
+        "q": "Comment fonctionne le processus freelance ?",
+        "a": "Nous commençons par un appel gratuit de 30 minutes pour aligner les objectifs. J'envoie ensuite une proposition avec le périmètre, le calendrier et le tarif. Une fois approuvé, nous passons au design et au développement avec des points hebdomadaires."
+      },
+      {
+        "q": "Collaborez-vous avec des équipes existantes ?",
+        "a": "Absolument. Je m'intègre parfaitement aux équipes produit, design et ingénierie internes — en utilisant vos outils, vos rituels et vos standards de code."
+      },
+      {
+        "q": "Dans quelles technologies êtes-vous spécialisé ?",
+        "a": "React, TypeScript, Next.js, Node.js, Python et l'infrastructure cloud moderne (AWS, Vercel, Supabase). Pour le design, je travaille dans Figma avec des systèmes de design complets."
+      },
+      {
+        "q": "Proposez-vous un support après le lancement ?",
+        "a": "Oui — je propose des forfaits mensuels couvrant la maintenance, le monitoring des performances, les itérations de fonctionnalités et le conseil stratégique."
+      },
+      {
+        "q": "Quel est votre modèle de tarification ?",
+        "a": "Basé sur le projet pour des périmètres définis, ou forfaits mensuels pour un travail continu. Les deux sont transparents et adaptés à la taille de l'engagement."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Votre vision, mon expertise.",
+    "titleHighlight": "quelque chose d'exceptionnel.",
+    "titleEnd": "Créons ensemble",
+    "subtitle": "Vous avez un projet en tête ? Parlons de comment le concrétiser.",
+    "button": "Réserver un appel"
+  },
+  "footer": {
+    "links": {
+      "home": "Accueil",
+      "about": "À propos",
+      "work": "Projets",
+      "faqs": "FAQ",
+      "contact": "Contact"
+    },
+    "rights": "© 2026 Fresnel. Tous droits réservés.",
+    "crafted": "Conçu avec précision à San Francisco."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oups ! Page non trouvée",
+    "returnHome": "Retour à l'accueil"
+  }
+}

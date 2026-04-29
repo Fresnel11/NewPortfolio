@@ -1,23 +1,27 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-
-const links = [
-  { label: "Home", href: "#home" },
-  { label: "Work", href: "#work" },
-  { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
-  { label: "FAQs", href: "#faqs" },
-  { label: "Contact", href: "#contact" },
-];
+import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 
 export const Navbar = () => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
+  
+  const links = [
+    { label: t("nav.home"), href: "#home" },
+    { label: t("nav.work"), href: "#work" },
+    { label: t("nav.services"), href: "#services" },
+    { label: t("nav.about"), href: "#about" },
+    { label: t("nav.faqs"), href: "#faqs" },
+    { label: t("nav.contact"), href: "#contact" },
+  ];
+
   return (
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="container py-5">
         <div className="glass rounded-full px-6 py-3 flex items-center justify-between">
           <a href="#home" className="font-display font-bold text-lg tracking-tight">
-            LEO<span className="text-primary-glow">.</span>
+            FJC<span className="text-primary-glow">.</span>
           </a>
           <nav className="hidden md:flex items-center gap-8">
             {links.map((l) => (
@@ -26,9 +30,13 @@ export const Navbar = () => {
               </a>
             ))}
           </nav>
-          <a href="#contact" className="hidden md:inline-flex text-sm rounded-full px-4 py-2 bg-gradient-to-r from-primary-deep to-primary text-primary-foreground hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-all">
-            Book a call
-          </a>
+          
+          <div className="hidden md:flex items-center gap-3">
+            <LanguageSwitcher />
+            <a href="#contact" className="inline-flex text-sm rounded-full px-5 py-2.5 bg-gradient-to-r from-primary-deep to-primary text-primary-foreground hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-all font-medium">
+              {t("nav.contact")}
+            </a>
+          </div>
           <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">
             {open ? <X /> : <Menu />}
           </button>
@@ -40,6 +48,7 @@ export const Navbar = () => {
                 {l.label}
               </a>
             ))}
+            <LanguageSwitcher />
           </div>
         )}
       </div>

@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import p1 from "@/assets/project-1.jpg";
 import p2 from "@/assets/project-2.jpg";
 import p3 from "@/assets/project-3.jpg";
@@ -6,28 +7,28 @@ import p4 from "@/assets/project-4.jpg";
 import p5 from "@/assets/project-5.jpg";
 import p6 from "@/assets/project-6.jpg";
 
-const projects = [
-  { title: "Elevate Your Business with CloudPeak", category: "Web Development", img: p1 },
-  { title: "Analytics Suite for Modern Teams", category: "SaaS", img: p2 },
-  { title: "Luxe — Premium E-commerce Experience", category: "E-commerce", img: p3 },
-  { title: "Nimbus Mobile Banking", category: "Mobile App", img: p4 },
-  { title: "Aurora Creative Studio", category: "Branding", img: p5 },
-  { title: "CryptaX Trading Dashboard", category: "Fintech", img: p6 },
-];
-
 export const Projects = () => {
+  const { t } = useTranslation();
+  
+  const projectImages = [p1, p2, p3, p4, p5, p6];
+  
+  const projects = (t("projects.items", { returnObjects: true }) as any[]).map((p, i) => ({
+    ...p,
+    img: projectImages[i]
+  }));
+
   return (
     <section id="work" className="py-32 relative">
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
-            <p className="text-sm uppercase tracking-[0.3em] text-primary-glow mb-4">Recent Work</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-primary-glow mb-4">{t("projects.label")}</p>
             <h2 className="font-display text-4xl md:text-6xl font-bold max-w-2xl">
-              Projects that <span className="gradient-text">push boundaries</span>
+              {t("projects.title")} <span className="gradient-text">{t("projects.titleHighlight")}</span>
             </h2>
           </div>
           <p className="text-muted-foreground max-w-md">
-            A curated selection of work spanning SaaS platforms, e-commerce, and immersive brand experiences.
+            {t("projects.subtitle")}
           </p>
         </div>
 

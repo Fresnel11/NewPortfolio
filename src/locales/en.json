@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Fresnel — Digital Solution Architect",
+    "description": "Fresnel — providing custom web solutions for entrepreneurs and SMEs. Strategic design and engineering for business growth."
+  },
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "services": "Services",
+    "about": "About",
+    "faqs": "FAQs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "available": "Available for new projects",
+    "title": "I'm Fresnel,",
+    "titleHighlight": "Digital Ambitions.",
+    "titleBuilding": "engineering your",
+    "subtitle": "I help entrepreneurs and SMEs scale with custom-built web solutions. Combining premium design with technical strategy to turn your vision into high-performance digital reality.",
+    "learnMore": "Learn More",
+    "viewWork": "View Work",
+    "portraitAlt": "Fresnel portrait",
+    "stats": {
+      "codingHours": "Coding Hours",
+      "clients": "Satisfied Clients",
+      "projects": "Projects Done",
+      "years": "Years Experience"
+    }
+  },
+  "trustedBy": {
+    "label": "Trusted by industry leaders"
+  },
+  "about": {
+    "label": "About Me",
+    "title": "A decade of building",
+    "titleHighlight": "products people love",
+    "bio1": "I'm a software engineer and product designer obsessed with the intersection of craft and engineering. Over the past 10 years, I've helped startups and Fortune 500 companies ship digital products used by millions.",
+    "bio2": "My approach is opinionated but collaborative: deeply technical, design-led, and grounded in measurable business outcomes.",
+    "stack": "Tech Stack",
+    "experience": "Experience",
+    "contact": "Contact Me",
+    "role": "Software Engineer & Designer",
+    "timeline": [
+      { "year": "2023", "role": "Lead Engineer", "company": "Postel Company" },
+      { "year": "2021", "role": "Senior Developer", "company": "Digital Core" },
+      { "year": "2019", "role": "Full-Stack Engineer", "company": "Smart Solutions" },
+      { "year": "2017", "role": "Junior Developer", "company": "Visionary Labs" }
+    ]
+  },
+  "services": {
+    "label": "What I Do",
+    "title": "Services built for",
+    "titleHighlight": "scale",
+    "items": [
+      {
+        "title": "Web Development",
+        "desc": "High-performance web applications built with React, Next.js, and modern tooling — designed to scale."
+      },
+      {
+        "title": "Cross-Platform Development",
+        "desc": "Native-quality mobile experiences for iOS and Android using React Native and Flutter."
+      },
+      {
+        "title": "UI / UX Design",
+        "desc": "Human-centered interfaces, design systems, and prototypes that turn complexity into clarity."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Recent Work",
+    "title": "Projects that",
+    "titleHighlight": "push boundaries",
+    "subtitle": "A curated selection of work spanning SaaS platforms, e-commerce, and immersive brand experiences.",
+    "items": [
+      { "title": "Elevate Your Business with CloudPeak", "category": "Web Development" },
+      { "title": "Analytics Suite for Modern Teams", "category": "SaaS" },
+      { "title": "Luxe — Premium E-commerce Experience", "category": "E-commerce" },
+      { "title": "Nimbus Mobile Banking", "category": "Mobile App" },
+      { "title": "Aurora Creative Studio", "category": "Branding" },
+      { "title": "CryptaX Trading Dashboard", "category": "Fintech" }
+    ]
+  },
+  "process": {
+    "label": "My Process",
+    "title": "From idea to",
+    "titleHighlight": "impact",
+    "steps": [
+      {
+        "title": "Define & Architect",
+        "desc": "We align on goals, audience, and technical foundations. Wireframes, system design, and a clear roadmap."
+      },
+      {
+        "title": "Build & Develop",
+        "desc": "Pixel-perfect interfaces meet robust engineering. Iterative sprints with continuous feedback."
+      },
+      {
+        "title": "Deploy & Support",
+        "desc": "Launch with confidence. Performance monitoring, refinement, and long-term partnership."
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What clients",
+    "titleHighlight": "say",
+    "items": [
+      { "name": "Sarah Mitchell", "role": "Product Lead, Google", "text": "Leo delivered beyond every expectation. The platform he built drove a 40% increase in conversions in the first quarter alone." },
+      { "name": "Marcus Reed", "role": "CTO, Stripe", "text": "Rare to find someone equally fluent in design and engineering. Leo is that person — and the work shows it." },
+      { "name": "Aiko Tanaka", "role": "Founder, Nimbus", "text": "Working with Leo felt like having a co-founder. Thoughtful, fast, and genuinely invested in the outcome." },
+      { "name": "James Whitfield", "role": "VP Engineering, Uber", "text": "Sharp execution, sharper instincts. Our SaaS dashboard has never looked or performed better." },
+      { "name": "Elena Castro", "role": "Design Director, Airbnb", "text": "An absolute craftsman. Every interaction, every micro-detail considered. Highly recommend." },
+      { "name": "Priya Shah", "role": "PM, Mashable", "text": "Leo took a vague idea and shipped a product that our users genuinely love. That's a rare gift." }
+    ]
+  },
+  "faqs": {
+    "label": "FAQs",
+    "title": "Frequently asked",
+    "titleHighlight": "questions",
+    "items": [
+      {
+        "q": "What's your typical project timeline?",
+        "a": "Most projects run 6–12 weeks from kickoff to launch. Smaller engagements can ship in 2–4 weeks; larger platforms may take 3–6 months. I'll give you a precise estimate after our discovery call."
+      },
+      {
+        "q": "How does the freelance process work?",
+        "a": "We start with a free 30-minute call to align on goals. I then send a proposal with scope, timeline, and pricing. Once approved, we move into design and development with weekly check-ins."
+      },
+      {
+        "q": "Do you collaborate with existing teams?",
+        "a": "Absolutely. I integrate seamlessly with internal product, design, and engineering teams — using your tools, your rituals, and your codebase standards."
+      },
+      {
+        "q": "What technologies do you specialize in?",
+        "a": "React, TypeScript, Next.js, Node.js, Python, and modern cloud infrastructure (AWS, Vercel, Supabase). For design I work in Figma with full design systems."
+      },
+      {
+        "q": "Do you offer ongoing support after launch?",
+        "a": "Yes — I offer monthly retainers covering maintenance, performance monitoring, feature iterations, and strategic advisory."
+      },
+      {
+        "q": "What's your pricing model?",
+        "a": "Project-based for defined scopes, or monthly retainers for ongoing work. Both are transparent and tailored to the engagement size."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Your vision, my expertise.",
+    "titleHighlight": "exceptional.",
+    "titleEnd": "Let's create something",
+    "subtitle": "Have a project in mind? Let's talk about how we can bring it to life.",
+    "button": "Book a call"
+  },
+  "footer": {
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "work": "Work",
+      "faqs": "FAQs",
+      "contact": "Contact"
+    },
+    "rights": "© 2026 Fresnel. All rights reserved.",
+    "crafted": "Crafted with precision in San Francisco."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "returnHome": "Return to Home"
+  }
+}
