@@ -16,13 +16,13 @@
     "title": "I'm Fresnel,",
     "titleHighlight": "Digital Ambitions.",
     "titleBuilding": "engineering your",
-    "subtitle": "I help entrepreneurs and SMEs scale with custom-built web solutions. Combining premium design with technical strategy to turn your vision into high-performance digital reality.",
+    "subtitle": "I design high-performing web experiences by combining technical rigor, product vision, and the strategic use of artificial intelligence. I work across the entire development cycle to build reliable, scalable, and user-centric solutions.",
     "learnMore": "Learn More",
     "viewWork": "View Work",
     "portraitAlt": "Fresnel portrait",
     "stats": {
       "codingHours": "Coding Hours",
-      "clients": "Satisfied Clients",
+      "technologies": "Technologies Mastered",
       "projects": "Projects Done",
       "years": "Years Experience"
     }
@@ -30,21 +30,24 @@
   "trustedBy": {
     "label": "Trusted by industry leaders"
   },
+  "techStack": {
+    "label": "Technical Expertise"
+  },
   "about": {
     "label": "About Me",
     "title": "A decade of building",
     "titleHighlight": "products people love",
-    "bio1": "I'm a software engineer and product designer obsessed with the intersection of craft and engineering. Over the past 10 years, I've helped startups and Fortune 500 companies ship digital products used by millions.",
-    "bio2": "My approach is opinionated but collaborative: deeply technical, design-led, and grounded in measurable business outcomes.",
+    "bio1": "I'm a software engineer passionate about building products that are useful, performant, and thoughtfully designed. My approach goes beyond writing code — I seek to deeply understand the problem in order to craft solutions that have a real impact.",
+    "bio2": "I work across the entire development cycle, from technical design to production, with a strong focus on code quality, performance, and user experience. I enjoy building clean, scalable, and maintainable architectures.",
+    "bio3": "Through my projects, I've developed expertise in fullstack development and a strong interest in artificial intelligence — particularly around concrete challenges like real-time transcription and natural language processing. I like integrating these technologies pragmatically to build smarter, more useful systems.",
+    "bio4": "Today, I'm constantly looking to grow, take on technical challenges, and build solutions that go beyond just functional.",
     "stack": "Tech Stack",
     "experience": "Experience",
     "contact": "Contact Me",
     "role": "Software Engineer & Designer",
     "timeline": [
-      { "year": "2023", "role": "Lead Engineer", "company": "Postel Company" },
-      { "year": "2021", "role": "Senior Developer", "company": "Digital Core" },
-      { "year": "2019", "role": "Full-Stack Engineer", "company": "Smart Solutions" },
-      { "year": "2017", "role": "Junior Developer", "company": "Visionary Labs" }
+      { "year": "2025 — present", "role": "Fullstack Web Developer", "company": "Highfive University" },
+      { "year": "2024", "role": "Fullstack Web Development Training", "company": "Highfive University" }
     ]
   },
   "services": {
@@ -72,12 +75,10 @@
     "titleHighlight": "push boundaries",
     "subtitle": "A curated selection of work spanning SaaS platforms, e-commerce, and immersive brand experiences.",
     "items": [
-      { "title": "Elevate Your Business with CloudPeak", "category": "Web Development" },
-      { "title": "Analytics Suite for Modern Teams", "category": "SaaS" },
-      { "title": "Luxe — Premium E-commerce Experience", "category": "E-commerce" },
-      { "title": "Nimbus Mobile Banking", "category": "Mobile App" },
-      { "title": "Aurora Creative Studio", "category": "Branding" },
-      { "title": "CryptaX Trading Dashboard", "category": "Fintech" }
+      { "title": "E-Location", "category": "Web Development" },
+      { "title": "Gestion Scolaire", "category": "Web Application" },
+      { "title": "Hotchik", "category": "Web Development" },
+      { "title": "MP Group", "category": "Web Development" }
     ]
   },
   "process": {

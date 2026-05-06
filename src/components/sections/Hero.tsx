@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Code2, Users, Briefcase, Award } from "lucide-react";
-import portrait from "@/assets/leo-portrait.jpg";
+import { ArrowRight, Code2, Layers, Briefcase, Award } from "lucide-react";
+import portrait from "@/assets/profil_portfolio.png";
 import { useTranslation } from "react-i18next";
 
 export const Hero = () => {
@@ -64,11 +64,11 @@ export const Hero = () => {
           <div className="absolute top-1/3 -right-4 md:-right-10 glass-card p-4 animate-float" style={{ animationDelay: '1.5s' }}>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center">
-                <Users className="w-5 h-5 text-primary-glow" />
+                <Layers className="w-5 h-5 text-primary-glow" />
               </div>
               <div>
-                <div className="font-display font-bold text-lg">500+</div>
-                <div className="text-xs text-muted-foreground">{t("hero.stats.clients")}</div>
+                <div className="font-display font-bold text-lg">15+</div>
+                <div className="text-xs text-muted-foreground">{t("hero.stats.technologies")}</div>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export const Hero = () => {
                 <Award className="w-5 h-5 text-primary-glow" />
               </div>
               <div>
-                <div className="font-display font-bold text-lg">10+</div>
+                <div className="font-display font-bold text-lg">2+</div>
                 <div className="text-xs text-muted-foreground">{t("hero.stats.years")}</div>
               </div>
             </div>

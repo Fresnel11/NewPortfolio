@@ -19,7 +19,7 @@ export const Navbar = () => {
   return (
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="container py-5">
-        <div className="glass rounded-full px-6 py-3 flex items-center justify-between">
+        <div className="rounded-full px-6 py-3 flex items-center justify-between backdrop-blur-xl bg-white/10 border border-white/20 shadow-[0_4px_24px_hsl(222_47%_4%/0.6),inset_0_1px_0_hsl(var(--primary)/0.15)]">
           <a href="#home" className="font-display font-bold text-lg tracking-tight">
             FJC<span className="text-primary-glow">.</span>
           </a>
@@ -42,7 +42,7 @@ export const Navbar = () => {
           </button>
         </div>
         {open && (
-          <div className="md:hidden mt-2 glass rounded-2xl p-4 flex flex-col gap-3 animate-fade-in">
+          <div className="md:hidden mt-2 rounded-2xl p-4 flex flex-col gap-3 animate-fade-in backdrop-blur-xl bg-white/10 border border-white/20 shadow-[0_4px_24px_hsl(222_47%_4%/0.6)]">
             {links.map((l) => (
               <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-sm text-muted-foreground hover:text-foreground">
                 {l.label}

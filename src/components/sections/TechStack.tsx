@@ -4,6 +4,7 @@ import {
   SiPostgresql, SiMysql, SiTypescript, SiTailwindcss, SiDocker 
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const techStack = [
   { icon: SiReact, label: "React", color: "#61DAFB" },
@@ -24,6 +25,7 @@ const techStack = [
 ];
 
 export const TechStack = () => {
+  const { t } = useTranslation();
   // Doubler la liste pour créer l'effet infini sans couture
   const marqueeItems = [...techStack, ...techStack];
 
@@ -31,7 +33,7 @@ export const TechStack = () => {
     <section className="py-16 border-y border-white/5 overflow-hidden">
       <div className="container mb-8">
         <p className="text-center text-sm uppercase tracking-[0.3em] text-muted-foreground">
-          Expertise technique
+          {t("techStack.label")}
         </p>
       </div>
       
