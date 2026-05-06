@@ -32,7 +32,7 @@ const Index = () => {
       <StatsBand />
       <Process />
       <About />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQ />
       <CTA />
       <Footer />

@@ -16,13 +16,13 @@
     "title": "Je suis Fresnel,",
     "titleHighlight": "Solutions d'Impact.",
     "titleBuilding": "je bâtis vos",
-    "subtitle": "J'accompagne les entrepreneurs et les PME dans la création de solutions web sur mesure. Mon approche : un design d'exception allié à une stratégie technique rigoureuse pour propulser vos idées.",
+    "subtitle": "Je conçois des expériences web performantes en combinant rigueur technique, vision produit et usage stratégique de l’intelligence artificielle. J’interviens sur l’ensemble du cycle de développement pour bâtir des solutions fiables, évolutives et centrées utilisateur.",
     "learnMore": "En savoir plus",
     "viewWork": "Voir mes projets",
     "portraitAlt": "Portrait de Fresnel",
     "stats": {
       "codingHours": "Heures de code",
-      "clients": "Clients satisfaits",
+      "technologies": "Technologies maîtrisées",
       "projects": "Projets réalisés",
       "years": "Ans d'expérience"
     }
@@ -30,21 +30,24 @@
   "trustedBy": {
     "label": "Approuvé par les leaders de l'industrie"
   },
+  "techStack": {
+    "label": "Expertise technique"
+  },
   "about": {
     "label": "À propos de moi",
     "title": "Une décennie à construire des",
     "titleHighlight": "produits que les gens adorent",
-    "bio1": "Je suis ingénieur logiciel et designer produit passionné par l'intersection entre l'artisanat et l'ingénierie. Au cours des 10 dernières années, j'ai aidé des startups et des entreprises du Fortune 500 à lancer des produits numériques utilisés par des millions de personnes.",
-    "bio2": "Mon approche est opiniâtre mais collaborative : profondément technique, axée sur le design et ancrée dans des résultats commerciaux mesurables.",
+    "bio1": "Je suis un ingénieur logiciel passionné par la création de produits utiles, performants et bien pensés. Mon approche ne se limite pas à écrire du code : je cherche à comprendre le problème en profondeur pour concevoir des solutions qui ont un réel impact.",
+    "bio2": "J'interviens sur l'ensemble du cycle de développement, du design technique à la mise en production, avec une attention particulière portée à la qualité du code, à la performance et à l'expérience utilisateur. J'aime construire des architectures propres, évolutives et maintenables.",
+    "bio3": "Au fil de mes projets, j'ai développé une expertise en développement fullstack ainsi qu'un intérêt marqué pour l'intelligence artificielle, notamment sur des problématiques concrètes comme la transcription en temps réel et le traitement du langage. J'aime intégrer ces technologies de manière pragmatique pour créer des systèmes plus intelligents et plus utiles.",
+    "bio4": "Aujourd'hui, je cherche constamment à progresser, à relever des défis techniques et à construire des solutions qui vont au-delà du simple fonctionnel.",
     "stack": "Stack technique",
     "experience": "Expérience",
     "contact": "Me contacter",
     "role": "Ingénieur logiciel & Designer",
     "timeline": [
-      { "year": "2023", "role": "Ingénieur Principal", "company": "Postel Company" },
-      { "year": "2021", "role": "Développeur Senior", "company": "Digital Core" },
-      { "year": "2019", "role": "Ingénieur Full-Stack", "company": "Smart Solutions" },
-      { "year": "2017", "role": "Développeur Junior", "company": "Visionary Labs" }
+      { "year": "2025 — en cours", "role": "Développeur Web Fullstack", "company": "Highfive University" },
+      { "year": "2024", "role": "Formation Développement Web Fullstack", "company": "Highfive University" }
     ]
   },
   "services": {
@@ -72,12 +75,10 @@
     "titleHighlight": "repoussent les limites",
     "subtitle": "Une sélection de travaux couvrant des plateformes SaaS, l'e-commerce et des expériences de marque immersives.",
     "items": [
-      { "title": "Boostez votre activité avec CloudPeak", "category": "Développement Web" },
-      { "title": "Suite Analytics pour équipes modernes", "category": "SaaS" },
-      { "title": "Luxe — Expérience e-commerce premium", "category": "E-commerce" },
-      { "title": "Nimbus Mobile Banking", "category": "Application Mobile" },
-      { "title": "Aurora Creative Studio", "category": "Branding" },
-      { "title": "CryptaX Trading Dashboard", "category": "Fintech" }
+      { "title": "E-Location", "category": "Développement Web" },
+      { "title": "Gestion Scolaire", "category": "Application Web" },
+      { "title": "Hotchik", "category": "Développement Web" },
+      { "title": "MP Group", "category": "Développement Web" }
     ]
   },
   "process": {

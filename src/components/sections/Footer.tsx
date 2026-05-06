@@ -32,13 +32,9 @@ export const Footer = () => {
           </div>
         </div>
 
-        <h2 className="font-display font-black text-[20vw] md:text-[16vw] leading-[0.85] tracking-tighter gradient-text text-glow text-center select-none uppercase">
-          FRESNEL
-        </h2>
-
         <div className="mt-10 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <div>{t("footer.rights")}</div>
-          <div>{t("footer.crafted")}</div>
+          {/* <div>{t("footer.crafted")}</div> */}
         </div>
       </div>
     </footer>

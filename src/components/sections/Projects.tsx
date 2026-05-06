@@ -1,16 +1,14 @@
 import { ArrowUpRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
-import p4 from "@/assets/project-4.jpg";
-import p5 from "@/assets/project-5.jpg";
-import p6 from "@/assets/project-6.jpg";
+import elocation from "@/assets/projects/elocation.png";
+import gestionScolaire from "@/assets/projects/gestion_scolaire.png";
+import hotchik from "@/assets/projects/hotchik.png";
+import mpgroup from "@/assets/projects/mpgroup.png";
 
 export const Projects = () => {
   const { t } = useTranslation();
   
-  const projectImages = [p1, p2, p3, p4, p5, p6];
+  const projectImages = [elocation, gestionScolaire, hotchik, mpgroup];
   
   const projects = (t("projects.items", { returnObjects: true }) as any[]).map((p, i) => ({
     ...p,
