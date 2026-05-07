@@ -32,35 +32,41 @@ export const Projects = () => {
 
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((p, i) => (
-            <article
+            <a
               key={i}
-              className="group relative rounded-3xl overflow-hidden border border-white/10 aspect-[4/3] cursor-pointer"
+              href={p.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative rounded-3xl overflow-hidden border border-white/10 cursor-pointer bg-[hsl(222_40%_7%)] block hover:border-primary/30 transition-colors duration-300"
             >
-              <img
-                src={p.img}
-                alt={p.title}
-                loading="lazy"
-                width={1024}
-                height={768}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/0 group-hover:from-primary/30 group-hover:to-primary-deep/40 transition-all duration-500" />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" style={{ boxShadow: 'inset 0 0 80px hsl(var(--primary) / 0.5)' }} />
+              <div className="w-full flex items-center justify-center p-6 min-h-[260px]">
+                <img
+                  src={p.img}
+                  alt={p.title}
+                  loading="lazy"
+                  className="w-full h-auto max-h-[340px] object-contain transition-transform duration-700 group-hover:scale-105 rounded-xl"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/0 group-hover:from-primary/20 group-hover:to-primary-deep/30 transition-all duration-500 pointer-events-none" />
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style={{ boxShadow: 'inset 0 0 80px hsl(var(--primary) / 0.5)' }} />
 
               <div className="absolute inset-0 p-8 flex flex-col justify-end">
                 <span className="inline-block w-fit text-xs uppercase tracking-widest px-3 py-1 rounded-full glass mb-3">
                   {p.category}
                 </span>
-                <h3 className="font-display text-2xl md:text-3xl font-bold leading-tight max-w-md">
+                <h3 className="font-display text-2xl md:text-3xl font-bold leading-tight max-w-md mb-2">
                   {p.title}
                 </h3>
+                <p className="text-sm text-white/70 leading-relaxed max-w-md opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500">
+                  {p.desc}
+                </p>
               </div>
 
               <div className="absolute top-6 right-6 w-12 h-12 rounded-full glass flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-0 -rotate-45 transition-all duration-500">
                 <ArrowUpRight className="w-5 h-5 text-primary-glow" />
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </div>

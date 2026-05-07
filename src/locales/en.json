@@ -75,10 +75,10 @@
     "titleHighlight": "push boundaries",
     "subtitle": "A curated selection of work spanning SaaS platforms, e-commerce, and immersive brand experiences.",
     "items": [
-      { "title": "E-Location", "category": "Web Development" },
-      { "title": "Gestion Scolaire", "category": "Web Application" },
-      { "title": "Hotchik", "category": "Web Development" },
-      { "title": "MP Group", "category": "Web Development" }
+      { "title": "E-Location", "category": "Web Development", "url": "https://e-location-nu.vercel.app/", "desc": "A vehicle rental platform with real-time availability, booking management, and an intuitive interface for both users and administrators." },
+      { "title": "Gestion Scolaire", "category": "Web Application", "url": "https://eschool-bj.vercel.app/", "desc": "A complete school management system covering student enrollment, grade tracking, scheduling, and communication between teachers and parents." },
+      { "title": "Hotchik", "category": "Web Development", "url": "https://hotchickrestaurant.netlify.app/", "desc": "A showcase website for a restaurant, featuring the menu, online reservations, and a modern design that reflects the brand identity." },
+      { "title": "MP Group", "category": "Web Development", "url": "https://mpgroupcompany.com/", "desc": "A corporate website for a multi-sector company, presenting their services, expertise, and projects with a professional and impactful design." }
     ]
   },
   "process": {
@@ -143,6 +143,29 @@
         "a": "Project-based for defined scopes, or monthly retainers for ongoing work. Both are transparent and tailored to the engagement size."
       }
     ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's work",
+    "titleHighlight": "together",
+    "subtitle": "A project, a question, or just want to connect? I'm available.",
+    "infoTitle": "Get in touch",
+    "infoText": "I usually respond within 24 hours. Feel free to reach out through whichever channel works best for you.",
+    "available": "Available for new projects",
+    "availableDesc": "Open to freelance & full-time opportunities",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's it about?",
+      "message": "Message",
+      "messagePlaceholder": "Describe your project or request...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "sent": "Message sent ✓"
+    }
   },
   "cta": {
     "title": "Your vision, my expertise.",

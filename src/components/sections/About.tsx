@@ -2,7 +2,7 @@ import { Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import portrait from "@/assets/profil_portfolio.png";
 import { useTranslation } from "react-i18next";
-import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
 const stack = ["React", "TypeScript", "Node.js", "Python", "Next.js", "PostgreSQL", "AWS", "Figma"];
@@ -36,8 +36,11 @@ export const About = () => {
               <MdOutlineEmail className="w-5 h-5" />
             </a>
           </div>
-          <Button className="w-full rounded-full bg-gradient-to-r from-primary-deep to-primary text-primary-foreground hover:shadow-[0_0_30px_hsl(var(--primary)/0.5)] transition-all">
-            {t("about.contact")}
+          <Button asChild className="w-full rounded-full bg-gradient-to-r from-primary-deep to-primary text-primary-foreground hover:shadow-[0_0_30px_hsl(var(--primary)/0.5)] transition-all">
+            <a href="https://wa.me/2290165832196" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+              <FaWhatsapp className="w-5 h-5" />
+              {t("about.contact")}
+            </a>
           </Button>
         </div>
 

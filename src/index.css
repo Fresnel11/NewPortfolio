@@ -183,3 +183,45 @@
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* Bordure animée — point de lumière qui parcourt le contour */
+.animated-border {
+  position: relative;
+  background: transparent;
+}
+
+.animated-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(
+    from var(--angle, 0deg),
+    transparent 0deg,
+    transparent 300deg,
+    hsl(var(--primary-glow)) 340deg,
+    hsl(200 100% 80%) 360deg
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  animation: border-spin 8s linear infinite;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes border-spin {
+  to { --angle: 360deg; }
+}
+
+/* 
+  Pour contrôler la vitesse de l'animation de bordure,
+  modifie la durée dans la règle ci-dessous :
+  .animated-border::before { animation: border-spin Xs linear infinite; }
+  Plus X est grand → plus c'est lent. Ex: 3s = rapide, 8s = moyen, 15s = lent.
+*/

@@ -10,6 +10,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 import { Footer } from "@/components/sections/Footer";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -36,6 +37,7 @@ const Index = () => {
       <FAQ />
       <CTA />
       <Footer />
+      <ScrollToTop />
     </main>
   );
 };
