@@ -75,10 +75,10 @@
     "titleHighlight": "repoussent les limites",
     "subtitle": "Une sélection de travaux couvrant des plateformes SaaS, l'e-commerce et des expériences de marque immersives.",
     "items": [
-      { "title": "E-Location", "category": "Développement Web" },
-      { "title": "Gestion Scolaire", "category": "Application Web" },
-      { "title": "Hotchik", "category": "Développement Web" },
-      { "title": "MP Group", "category": "Développement Web" }
+      { "title": "E-Location", "category": "Développement Web", "url": "https://e-location-nu.vercel.app/", "desc": "Une plateforme de location de véhicules avec disponibilité en temps réel, gestion des réservations et une interface intuitive pour les utilisateurs et les administrateurs." },
+      { "title": "Gestion Scolaire", "category": "Application Web", "url": "https://eschool-bj.vercel.app/", "desc": "Un système complet de gestion scolaire couvrant les inscriptions, le suivi des notes, la planification et la communication entre enseignants et parents." },
+      { "title": "Hotchik", "category": "Développement Web", "url": "https://hotchickrestaurant.netlify.app/", "desc": "Un site vitrine pour un restaurant, mettant en avant le menu, les réservations en ligne et un design moderne qui reflète l'identité de la marque." },
+      { "title": "MP Group", "category": "Développement Web", "url": "https://mpgroupcompany.com/", "desc": "Un site corporate pour une entreprise multi-secteurs, présentant ses services, son expertise et ses réalisations avec un design professionnel et impactant." }
     ]
   },
   "process": {
@@ -143,6 +143,29 @@
         "a": "Basé sur le projet pour des périmètres définis, ou forfaits mensuels pour un travail continu. Les deux sont transparents et adaptés à la taille de l'engagement."
       }
     ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Travaillons",
+    "titleHighlight": "ensemble",
+    "subtitle": "Un projet, une question ou juste envie d'échanger ? Je suis disponible.",
+    "infoTitle": "Restons en contact",
+    "infoText": "Je réponds généralement sous 24h. N'hésitez pas à me contacter par le canal qui vous convient le mieux.",
+    "available": "Disponible pour de nouveaux projets",
+    "availableDesc": "Ouvert aux opportunités freelance & CDI",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "subject": "Sujet",
+      "subjectPlaceholder": "De quoi s'agit-il ?",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre projet ou votre demande...",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "sent": "Message envoyé ✓"
+    }
   },
   "cta": {
     "title": "Votre vision, mon expertise.",

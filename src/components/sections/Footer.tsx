@@ -1,5 +1,6 @@
-import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -10,6 +11,13 @@ export const Footer = () => {
     { label: t("footer.links.work"), href: "#work" },
     { label: t("footer.links.faqs"), href: "#faqs" },
     { label: t("footer.links.contact"), href: "#contact" },
+  ];
+
+  const socials = [
+    { icon: FaLinkedinIn, href: "https://www.linkedin.com/in/fresnel-jean-claude-00433938a/", label: "LinkedIn" },
+    { icon: FaGithub, href: "https://github.com/Fresnel11", label: "GitHub" },
+    { icon: FaWhatsapp, href: "https://wa.me/2290165832196", label: "WhatsApp" },
+    { icon: MdOutlineEmail, href: "mailto:fresneljeanclaudecossou64@gmail.com", label: "Email" },
   ];
 
   return (
@@ -24,8 +32,15 @@ export const Footer = () => {
             ))}
           </nav>
           <div className="flex gap-3">
-            {[Linkedin, Github, Twitter, Instagram].map((Icon, i) => (
-              <a key={i} href="#" className="w-11 h-11 rounded-xl glass flex items-center justify-center hover:bg-primary/20 hover:text-primary-glow transition-all">
+            {socials.map(({ icon: Icon, href, label }) => (
+              <a
+                key={label}
+                href={href}
+                target={href.startsWith("mailto") ? undefined : "_blank"}
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="w-11 h-11 rounded-xl glass flex items-center justify-center hover:bg-primary/20 hover:text-primary-glow transition-all"
+              >
                 <Icon className="w-5 h-5" />
               </a>
             ))}
@@ -34,7 +49,6 @@ export const Footer = () => {
 
         <div className="mt-10 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <div>{t("footer.rights")}</div>
-          {/* <div>{t("footer.crafted")}</div> */}
         </div>
       </div>
     </footer>
