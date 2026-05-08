@@ -35,8 +35,8 @@
   },
   "about": {
     "label": "À propos de moi",
-    "title": "Une décennie à construire des",
-    "titleHighlight": "produits que les gens adorent",
+    "title": "Concevoir, construire,",
+    "titleHighlight": "livrer.",
     "bio1": "Je suis un ingénieur logiciel passionné par la création de produits utiles, performants et bien pensés. Mon approche ne se limite pas à écrire du code : je cherche à comprendre le problème en profondeur pour concevoir des solutions qui ont un réel impact.",
     "bio2": "J'interviens sur l'ensemble du cycle de développement, du design technique à la mise en production, avec une attention particulière portée à la qualité du code, à la performance et à l'expérience utilisateur. J'aime construire des architectures propres, évolutives et maintenables.",
     "bio3": "Au fil de mes projets, j'ai développé une expertise en développement fullstack ainsi qu'un intérêt marqué pour l'intelligence artificielle, notamment sur des problématiques concrètes comme la transcription en temps réel et le traitement du langage. J'aime intégrer ces technologies de manière pragmatique pour créer des systèmes plus intelligents et plus utiles.",
@@ -164,7 +164,8 @@
       "messagePlaceholder": "Décrivez votre projet ou votre demande...",
       "send": "Envoyer le message",
       "sending": "Envoi en cours...",
-      "sent": "Message envoyé ✓"
+      "sent": "Message envoyé ✓",
+      "error": "Erreur, réessayez"
     }
   },
   "cta": {
