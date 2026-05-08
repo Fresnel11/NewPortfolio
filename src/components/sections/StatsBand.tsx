@@ -50,10 +50,10 @@ const StatItem = ({ value, suffix, label, triggered, delay = 0 }: StatItemProps)
 
   return (
     <div className="text-center">
-      <div className="font-display text-5xl md:text-7xl font-bold gradient-text text-glow mb-2">
+      <div className="font-display text-3xl sm:text-5xl md:text-7xl font-bold gradient-text text-glow mb-2">
         {count}{suffix}
       </div>
-      <div className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
+      <div className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-muted-foreground leading-tight">
         {label}
       </div>
     </div>
@@ -90,10 +90,10 @@ export const StatsBand = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="py-24 relative">
-      <div className="container">
-        <div className="glass-card border-glow p-12 md:p-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+    <section ref={sectionRef} className="py-16 md:py-24 relative">
+      <div className="container px-4 sm:px-6">
+        <div className="glass-card border-glow p-6 sm:p-10 md:p-16">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-10">
             {stats.map((s, i) => (
               <StatItem
                 key={i}

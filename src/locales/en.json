@@ -35,8 +35,8 @@
   },
   "about": {
     "label": "About Me",
-    "title": "A decade of building",
-    "titleHighlight": "products people love",
+    "title": "Design, build,",
+    "titleHighlight": "deliver.",
     "bio1": "I'm a software engineer passionate about building products that are useful, performant, and thoughtfully designed. My approach goes beyond writing code — I seek to deeply understand the problem in order to craft solutions that have a real impact.",
     "bio2": "I work across the entire development cycle, from technical design to production, with a strong focus on code quality, performance, and user experience. I enjoy building clean, scalable, and maintainable architectures.",
     "bio3": "Through my projects, I've developed expertise in fullstack development and a strong interest in artificial intelligence — particularly around concrete challenges like real-time transcription and natural language processing. I like integrating these technologies pragmatically to build smarter, more useful systems.",
@@ -164,7 +164,8 @@
       "messagePlaceholder": "Describe your project or request...",
       "send": "Send message",
       "sending": "Sending...",
-      "sent": "Message sent ✓"
+      "sent": "Message sent ✓",
+      "error": "Error, please retry"
     }
   },
   "cta": {
